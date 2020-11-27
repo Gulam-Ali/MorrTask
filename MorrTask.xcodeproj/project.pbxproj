@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34ABA2B06E216009836B7C0B /* Pods_MorrTask_MorrTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95DE0F5236EB027B913B0A8 /* Pods_MorrTask_MorrTaskUITests.framework */; };
+		847B8ED586007AF240A78C7A /* Pods_MorrTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A28AE8D3937C084AB1E7189 /* Pods_MorrTask.framework */; };
+		EAAB8E722571085A0018176C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB8E712571085A0018176C /* Colors.swift */; };
+		EAAB8E7B25716B160018176C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB8E7A25716B160018176C /* Constants.swift */; };
 		EADC18D72570D882009FA772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18D62570D882009FA772 /* AppDelegate.swift */; };
 		EADC18D92570D882009FA772 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18D82570D882009FA772 /* SceneDelegate.swift */; };
 		EADC18DB2570D882009FA772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18DA2570D882009FA772 /* ViewController.swift */; };
@@ -15,6 +19,7 @@
 		EADC18E32570D885009FA772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADC18E12570D885009FA772 /* LaunchScreen.storyboard */; };
 		EADC18EE2570D886009FA772 /* MorrTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18ED2570D886009FA772 /* MorrTaskTests.swift */; };
 		EADC18F92570D886009FA772 /* MorrTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18F82570D886009FA772 /* MorrTaskUITests.swift */; };
+		FBF82E55671C8245CFC6AC50 /* Pods_MorrTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D65E864C86F0D9B16740BE /* Pods_MorrTaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05EEAA286C89700FCC8C00E8 /* Pods-MorrTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorrTask.debug.xcconfig"; path = "Target Support Files/Pods-MorrTask/Pods-MorrTask.debug.xcconfig"; sourceTree = "<group>"; };
+		06F7F831BE31A1675FAFB079 /* Pods-MorrTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorrTaskTests.release.xcconfig"; path = "Target Support Files/Pods-MorrTaskTests/Pods-MorrTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A28AE8D3937C084AB1E7189 /* Pods_MorrTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorrTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D65E864C86F0D9B16740BE /* Pods_MorrTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorrTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F8913856DD04BC70A12DF8 /* Pods-MorrTask-MorrTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorrTask-MorrTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-MorrTask-MorrTaskUITests/Pods-MorrTask-MorrTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31B7939725948B8D09D3717D /* Pods-MorrTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorrTask.release.xcconfig"; path = "Target Support Files/Pods-MorrTask/Pods-MorrTask.release.xcconfig"; sourceTree = "<group>"; };
+		4AF4BB09085E83802327F48E /* Pods-MorrTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorrTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-MorrTaskTests/Pods-MorrTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7F9775192AA322F20058DF /* Pods-MorrTask-MorrTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorrTask-MorrTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-MorrTask-MorrTaskUITests/Pods-MorrTask-MorrTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E95DE0F5236EB027B913B0A8 /* Pods_MorrTask_MorrTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorrTask_MorrTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAB8E712571085A0018176C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EAAB8E7A25716B160018176C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EADC18D32570D882009FA772 /* MorrTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorrTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADC18D62570D882009FA772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADC18D82570D882009FA772 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B8ED586007AF240A78C7A /* Pods_MorrTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF82E55671C8245CFC6AC50 /* Pods_MorrTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34ABA2B06E216009836B7C0B /* Pods_MorrTask_MorrTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A7A6D9EF0754B8ECC2EE4A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A28AE8D3937C084AB1E7189 /* Pods_MorrTask.framework */,
+				E95DE0F5236EB027B913B0A8 /* Pods_MorrTask_MorrTaskUITests.framework */,
+				20D65E864C86F0D9B16740BE /* Pods_MorrTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAB8E702571084B0018176C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB8E712571085A0018176C /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EAAB8E7925716B070018176C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB8E7A25716B160018176C /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EADC18CA2570D881009FA772 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +128,8 @@
 				EADC18EC2570D886009FA772 /* MorrTaskTests */,
 				EADC18F72570D886009FA772 /* MorrTaskUITests */,
 				EADC18D42570D882009FA772 /* Products */,
+				F0B9159E99ECE247AA562C93 /* Pods */,
+				8A7A6D9EF0754B8ECC2EE4A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +146,8 @@
 		EADC18D52570D882009FA772 /* MorrTask */ = {
 			isa = PBXGroup;
 			children = (
+				EAAB8E7925716B070018176C /* Helpers */,
+				EAAB8E702571084B0018176C /* Extensions */,
 				EADC18D62570D882009FA772 /* AppDelegate.swift */,
 				EADC18D82570D882009FA772 /* SceneDelegate.swift */,
 				EADC18DA2570D882009FA772 /* ViewController.swift */,
@@ -128,6 +177,19 @@
 			path = MorrTaskUITests;
 			sourceTree = "<group>";
 		};
+		F0B9159E99ECE247AA562C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05EEAA286C89700FCC8C00E8 /* Pods-MorrTask.debug.xcconfig */,
+				31B7939725948B8D09D3717D /* Pods-MorrTask.release.xcconfig */,
+				25F8913856DD04BC70A12DF8 /* Pods-MorrTask-MorrTaskUITests.debug.xcconfig */,
+				8C7F9775192AA322F20058DF /* Pods-MorrTask-MorrTaskUITests.release.xcconfig */,
+				4AF4BB09085E83802327F48E /* Pods-MorrTaskTests.debug.xcconfig */,
+				06F7F831BE31A1675FAFB079 /* Pods-MorrTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADC18FD2570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTask" */;
 			buildPhases = (
+				C0ED6D65B9DC169746EF1760 /* [CP] Check Pods Manifest.lock */,
 				EADC18CF2570D881009FA772 /* Sources */,
 				EADC18D02570D881009FA772 /* Frameworks */,
 				EADC18D12570D881009FA772 /* Resources */,
+				888CC7289B3EF9FFAE6807DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADC19002570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTaskTests" */;
 			buildPhases = (
+				03FA39F80139DD33A7BB4EBC /* [CP] Check Pods Manifest.lock */,
 				EADC18E52570D886009FA772 /* Sources */,
 				EADC18E62570D886009FA772 /* Frameworks */,
 				EADC18E72570D886009FA772 /* Resources */,
@@ -170,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADC19032570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTaskUITests" */;
 			buildPhases = (
+				A7CD2662289430CBB9BBF057 /* [CP] Check Pods Manifest.lock */,
 				EADC18F02570D886009FA772 /* Sources */,
 				EADC18F12570D886009FA772 /* Frameworks */,
 				EADC18F22570D886009FA772 /* Resources */,
+				F26613B6C613830971CD2207 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +320,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03FA39F80139DD33A7BB4EBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MorrTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888CC7289B3EF9FFAE6807DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorrTask/Pods-MorrTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorrTask/Pods-MorrTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MorrTask/Pods-MorrTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7CD2662289430CBB9BBF057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MorrTask-MorrTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0ED6D65B9DC169746EF1760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MorrTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26613B6C613830971CD2207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorrTask-MorrTaskUITests/Pods-MorrTask-MorrTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorrTask-MorrTaskUITests/Pods-MorrTask-MorrTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MorrTask-MorrTaskUITests/Pods-MorrTask-MorrTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EADC18CF2570D881009FA772 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAAB8E7B25716B160018176C /* Constants.swift in Sources */,
 				EADC18DB2570D882009FA772 /* ViewController.swift in Sources */,
+				EAAB8E722571085A0018176C /* Colors.swift in Sources */,
 				EADC18D72570D882009FA772 /* AppDelegate.swift in Sources */,
 				EADC18D92570D882009FA772 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +605,7 @@
 		};
 		EADC18FE2570D886009FA772 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EEAA286C89700FCC8C00E8 /* Pods-MorrTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +619,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EADC18FF2570D886009FA772 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B7939725948B8D09D3717D /* Pods-MorrTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +639,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		EADC19012570D886009FA772 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF4BB09085E83802327F48E /* Pods-MorrTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +668,7 @@
 		};
 		EADC19022570D886009FA772 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F7F831BE31A1675FAFB079 /* Pods-MorrTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +691,7 @@
 		};
 		EADC19042570D886009FA772 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F8913856DD04BC70A12DF8 /* Pods-MorrTask-MorrTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +712,7 @@
 		};
 		EADC19052570D886009FA772 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7F9775192AA322F20058DF /* Pods-MorrTask-MorrTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

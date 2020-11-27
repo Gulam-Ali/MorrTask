@@ -1,24 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1lU-bo-VoK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Credit Card Input Exercise-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MorrTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gQh-BP-Whk" customClass="MDCTextField">
+                                <rect key="frame" x="25" y="113" width="364" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="gos-oL-zRs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CVV" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2LH-kh-tso" customClass="MDCTextField">
+                                <rect key="frame" x="225" y="208" width="164" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Firstname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kx2-KO-cXQ" customClass="MDCTextField">
+                                <rect key="frame" x="25" y="303" width="164" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM/YY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JV8-5G-7NM" customClass="MDCTextField">
+                                <rect key="frame" x="25" y="208" width="164" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Lastname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TBA-BZ-oGr" customClass="MDCTextField">
+                                <rect key="frame" x="225" y="303" width="164" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNT-Xk-8rb">
+                                <rect key="frame" x="25" y="413" width="364" height="50"/>
+                                <color key="backgroundColor" red="0.30980392156862746" green="0.67450980392156867" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="lSC-Gb-zKc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="SUBMIT PAYMENT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitPayment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7i9-7b-Kf2"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kx2-KO-cXQ" firstAttribute="leading" secondItem="gQh-BP-Whk" secondAttribute="leading" id="2CJ-aY-Nez"/>
+                            <constraint firstItem="2LH-kh-tso" firstAttribute="height" secondItem="JV8-5G-7NM" secondAttribute="height" id="2kd-W7-2gZ"/>
+                            <constraint firstItem="2LH-kh-tso" firstAttribute="centerY" secondItem="JV8-5G-7NM" secondAttribute="centerY" id="4Fl-PT-Rw2"/>
+                            <constraint firstItem="TBA-BZ-oGr" firstAttribute="width" secondItem="kx2-KO-cXQ" secondAttribute="width" id="6ww-zj-JxC"/>
+                            <constraint firstItem="TBA-BZ-oGr" firstAttribute="trailing" secondItem="2LH-kh-tso" secondAttribute="trailing" id="7NH-ZP-D9p"/>
+                            <constraint firstItem="MNT-Xk-8rb" firstAttribute="trailing" secondItem="gQh-BP-Whk" secondAttribute="trailing" id="7On-Id-hXf"/>
+                            <constraint firstItem="JV8-5G-7NM" firstAttribute="top" secondItem="gQh-BP-Whk" secondAttribute="bottom" constant="15" id="8ju-6C-xDb"/>
+                            <constraint firstItem="MNT-Xk-8rb" firstAttribute="leading" secondItem="gQh-BP-Whk" secondAttribute="leading" id="8rV-Ic-Kqy"/>
+                            <constraint firstItem="JV8-5G-7NM" firstAttribute="width" secondItem="gQh-BP-Whk" secondAttribute="width" multiplier="0.45" id="EqK-KN-zX7"/>
+                            <constraint firstItem="2LH-kh-tso" firstAttribute="trailing" secondItem="gQh-BP-Whk" secondAttribute="trailing" id="F2p-l4-697"/>
+                            <constraint firstItem="TBA-BZ-oGr" firstAttribute="height" secondItem="kx2-KO-cXQ" secondAttribute="height" id="H5q-TV-Iww"/>
+                            <constraint firstItem="2LH-kh-tso" firstAttribute="width" secondItem="JV8-5G-7NM" secondAttribute="width" id="Iev-Qv-08j"/>
+                            <constraint firstItem="kx2-KO-cXQ" firstAttribute="width" secondItem="JV8-5G-7NM" secondAttribute="width" id="M6A-xF-nE8"/>
+                            <constraint firstItem="TBA-BZ-oGr" firstAttribute="centerY" secondItem="kx2-KO-cXQ" secondAttribute="centerY" id="Pjg-ls-tjc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gQh-BP-Whk" secondAttribute="trailing" constant="25" id="R44-Y1-dTA"/>
+                            <constraint firstItem="JV8-5G-7NM" firstAttribute="leading" secondItem="gQh-BP-Whk" secondAttribute="leading" id="T9j-ot-YoA"/>
+                            <constraint firstItem="JV8-5G-7NM" firstAttribute="height" secondItem="gQh-BP-Whk" secondAttribute="height" id="W9B-2l-Wdq"/>
+                            <constraint firstItem="gQh-BP-Whk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="aCw-9Q-rzH"/>
+                            <constraint firstItem="MNT-Xk-8rb" firstAttribute="top" secondItem="kx2-KO-cXQ" secondAttribute="bottom" constant="30" id="dTp-fV-ZYn"/>
+                            <constraint firstItem="gQh-BP-Whk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="dh9-kv-eK7"/>
+                            <constraint firstItem="kx2-KO-cXQ" firstAttribute="height" secondItem="JV8-5G-7NM" secondAttribute="height" id="rJI-ee-Shw"/>
+                            <constraint firstItem="kx2-KO-cXQ" firstAttribute="top" secondItem="JV8-5G-7NM" secondAttribute="bottom" constant="15" id="yzD-rI-TbY"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Credit Card Input Exercise" id="Hf1-5b-pSw"/>
+                    <connections>
+                        <outlet property="CvvTxt" destination="2LH-kh-tso" id="uP6-Ko-MI6"/>
+                        <outlet property="cardNumberTxtfld" destination="gQh-BP-Whk" id="9sg-JF-9Ce"/>
+                        <outlet property="expiryDATE" destination="JV8-5G-7NM" id="EQZ-uZ-JDm"/>
+                        <outlet property="firstname" destination="kx2-KO-cXQ" id="F9l-Fl-V9C"/>
+                        <outlet property="lastname" destination="TBA-BZ-oGr" id="Poi-mS-dtz"/>
+                        <outlet property="submitBtn" destination="MNT-Xk-8rb" id="fd6-TK-d0a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="942.02898550724649" y="66.964285714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Za3-pT-DpC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1lU-bo-VoK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x3p-Ah-SfR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="G9s-S2-5Eg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMj-kd-mMX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.884057971014496" y="66.964285714285708"/>
         </scene>
     </scenes>
 </document>

@@ -1,0 +1,35 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.6)
+  - MaterialComponents/AnimationTiming (83.0.1)
+  - MaterialComponents/Palettes (83.0.1)
+  - MaterialComponents/private/Application (83.0.1)
+  - MaterialComponents/private/Math (83.0.1)
+  - MaterialComponents/TextFields (83.0.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (83.0.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - MaterialComponents/TextFields (~> 83.0.1)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - MaterialComponents
+    - MDFInternationalization
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  MaterialComponents: 2363f5dab79a96d3958e6aaf49ec116e102d23dc
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+
+PODFILE CHECKSUM: 4bf1896d21e2fe2f7e96de964f57e76e9fba1f00
+
+COCOAPODS: 1.10.0.rc.1
