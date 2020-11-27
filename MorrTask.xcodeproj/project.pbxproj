@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EADC18D72570D882009FA772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18D62570D882009FA772 /* AppDelegate.swift */; };
+		EADC18D92570D882009FA772 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18D82570D882009FA772 /* SceneDelegate.swift */; };
+		EADC18DB2570D882009FA772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18DA2570D882009FA772 /* ViewController.swift */; };
+		EADC18DE2570D882009FA772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADC18DC2570D882009FA772 /* Main.storyboard */; };
+		EADC18E02570D885009FA772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADC18DF2570D885009FA772 /* Assets.xcassets */; };
+		EADC18E32570D885009FA772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADC18E12570D885009FA772 /* LaunchScreen.storyboard */; };
+		EADC18EE2570D886009FA772 /* MorrTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18ED2570D886009FA772 /* MorrTaskTests.swift */; };
+		EADC18F92570D886009FA772 /* MorrTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC18F82570D886009FA772 /* MorrTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADC18EA2570D886009FA772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADC18CB2570D881009FA772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADC18D22570D881009FA772;
+			remoteInfo = MorrTask;
+		};
+		EADC18F52570D886009FA772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADC18CB2570D881009FA772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADC18D22570D881009FA772;
+			remoteInfo = MorrTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EADC18D32570D882009FA772 /* MorrTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorrTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC18D62570D882009FA772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EADC18D82570D882009FA772 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EADC18DA2570D882009FA772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EADC18DD2570D882009FA772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADC18DF2570D885009FA772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EADC18E22570D885009FA772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EADC18E42570D885009FA772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADC18E92570D886009FA772 /* MorrTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorrTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC18ED2570D886009FA772 /* MorrTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorrTaskTests.swift; sourceTree = "<group>"; };
+		EADC18EF2570D886009FA772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADC18F42570D886009FA772 /* MorrTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorrTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC18F82570D886009FA772 /* MorrTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorrTaskUITests.swift; sourceTree = "<group>"; };
+		EADC18FA2570D886009FA772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADC18D02570D881009FA772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC18E62570D886009FA772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC18F12570D886009FA772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EADC18CA2570D881009FA772 = {
+			isa = PBXGroup;
+			children = (
+				EADC18D52570D882009FA772 /* MorrTask */,
+				EADC18EC2570D886009FA772 /* MorrTaskTests */,
+				EADC18F72570D886009FA772 /* MorrTaskUITests */,
+				EADC18D42570D882009FA772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADC18D42570D882009FA772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADC18D32570D882009FA772 /* MorrTask.app */,
+				EADC18E92570D886009FA772 /* MorrTaskTests.xctest */,
+				EADC18F42570D886009FA772 /* MorrTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADC18D52570D882009FA772 /* MorrTask */ = {
+			isa = PBXGroup;
+			children = (
+				EADC18D62570D882009FA772 /* AppDelegate.swift */,
+				EADC18D82570D882009FA772 /* SceneDelegate.swift */,
+				EADC18DA2570D882009FA772 /* ViewController.swift */,
+				EADC18DC2570D882009FA772 /* Main.storyboard */,
+				EADC18DF2570D885009FA772 /* Assets.xcassets */,
+				EADC18E12570D885009FA772 /* LaunchScreen.storyboard */,
+				EADC18E42570D885009FA772 /* Info.plist */,
+			);
+			path = MorrTask;
+			sourceTree = "<group>";
+		};
+		EADC18EC2570D886009FA772 /* MorrTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				EADC18ED2570D886009FA772 /* MorrTaskTests.swift */,
+				EADC18EF2570D886009FA772 /* Info.plist */,
+			);
+			path = MorrTaskTests;
+			sourceTree = "<group>";
+		};
+		EADC18F72570D886009FA772 /* MorrTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EADC18F82570D886009FA772 /* MorrTaskUITests.swift */,
+				EADC18FA2570D886009FA772 /* Info.plist */,
+			);
+			path = MorrTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADC18D22570D881009FA772 /* MorrTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC18FD2570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTask" */;
+			buildPhases = (
+				EADC18CF2570D881009FA772 /* Sources */,
+				EADC18D02570D881009FA772 /* Frameworks */,
+				EADC18D12570D881009FA772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorrTask;
+			productName = MorrTask;
+			productReference = EADC18D32570D882009FA772 /* MorrTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADC18E82570D886009FA772 /* MorrTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC19002570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTaskTests" */;
+			buildPhases = (
+				EADC18E52570D886009FA772 /* Sources */,
+				EADC18E62570D886009FA772 /* Frameworks */,
+				EADC18E72570D886009FA772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADC18EB2570D886009FA772 /* PBXTargetDependency */,
+			);
+			name = MorrTaskTests;
+			productName = MorrTaskTests;
+			productReference = EADC18E92570D886009FA772 /* MorrTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EADC18F32570D886009FA772 /* MorrTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC19032570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTaskUITests" */;
+			buildPhases = (
+				EADC18F02570D886009FA772 /* Sources */,
+				EADC18F12570D886009FA772 /* Frameworks */,
+				EADC18F22570D886009FA772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADC18F62570D886009FA772 /* PBXTargetDependency */,
+			);
+			name = MorrTaskUITests;
+			productName = MorrTaskUITests;
+			productReference = EADC18F42570D886009FA772 /* MorrTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADC18CB2570D881009FA772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EADC18D22570D881009FA772 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					EADC18E82570D886009FA772 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EADC18D22570D881009FA772;
+					};
+					EADC18F32570D886009FA772 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EADC18D22570D881009FA772;
+					};
+				};
+			};
+			buildConfigurationList = EADC18CE2570D881009FA772 /* Build configuration list for PBXProject "MorrTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADC18CA2570D881009FA772;
+			productRefGroup = EADC18D42570D882009FA772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADC18D22570D881009FA772 /* MorrTask */,
+				EADC18E82570D886009FA772 /* MorrTaskTests */,
+				EADC18F32570D886009FA772 /* MorrTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADC18D12570D881009FA772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC18E32570D885009FA772 /* LaunchScreen.storyboard in Resources */,
+				EADC18E02570D885009FA772 /* Assets.xcassets in Resources */,
+				EADC18DE2570D882009FA772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC18E72570D886009FA772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC18F22570D886009FA772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADC18CF2570D881009FA772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC18DB2570D882009FA772 /* ViewController.swift in Sources */,
+				EADC18D72570D882009FA772 /* AppDelegate.swift in Sources */,
+				EADC18D92570D882009FA772 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC18E52570D886009FA772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC18EE2570D886009FA772 /* MorrTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC18F02570D886009FA772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC18F92570D886009FA772 /* MorrTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADC18EB2570D886009FA772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADC18D22570D881009FA772 /* MorrTask */;
+			targetProxy = EADC18EA2570D886009FA772 /* PBXContainerItemProxy */;
+		};
+		EADC18F62570D886009FA772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADC18D22570D881009FA772 /* MorrTask */;
+			targetProxy = EADC18F52570D886009FA772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADC18DC2570D882009FA772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADC18DD2570D882009FA772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EADC18E12570D885009FA772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADC18E22570D885009FA772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADC18FB2570D886009FA772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EADC18FC2570D886009FA772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADC18FE2570D886009FA772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = MorrTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EADC18FF2570D886009FA772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = MorrTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EADC19012570D886009FA772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = MorrTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorrTask.app/MorrTask";
+			};
+			name = Debug;
+		};
+		EADC19022570D886009FA772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = MorrTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorrTask.app/MorrTask";
+			};
+			name = Release;
+		};
+		EADC19042570D886009FA772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = MorrTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MorrTask;
+			};
+			name = Debug;
+		};
+		EADC19052570D886009FA772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = MorrTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.morrTask.gulamali.MorrTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MorrTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADC18CE2570D881009FA772 /* Build configuration list for PBXProject "MorrTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC18FB2570D886009FA772 /* Debug */,
+				EADC18FC2570D886009FA772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC18FD2570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC18FE2570D886009FA772 /* Debug */,
+				EADC18FF2570D886009FA772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC19002570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC19012570D886009FA772 /* Debug */,
+				EADC19022570D886009FA772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC19032570D886009FA772 /* Build configuration list for PBXNativeTarget "MorrTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC19042570D886009FA772 /* Debug */,
+				EADC19052570D886009FA772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADC18CB2570D881009FA772 /* Project object */;
+}
